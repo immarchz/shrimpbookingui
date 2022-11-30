@@ -67,7 +67,7 @@ const Header = () =>{
                     </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon="fa-solid fa-user" className="headerIcon"/>
-                        <span className="headerSearchtext" >20 adults 20 childern 5 room</span>
+                        <span className="headerSearchtext" >20 adults 20 childern 5 room eieieieiei</span>
                     </div>
                     <div className="headerSearchItem">
                         <button className="headerBTN">Search</button>
