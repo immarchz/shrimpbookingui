@@ -1,0 +1,37 @@
+.featuredContainer {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: -1;
+}
+.featuredPictureContainer {
+  flex: 1;
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+}
+
+.featuredImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+.featuredName {
+  color: white;
+  position: absolute;
+  align-items: center;
+  bottom: 1rem;
+  left: 10px;
+}
+
+.featuredProperty {
+  color: white;
+  position: absolute;
+  align-items: center;
+  bottom: 0rem;
+  left: 10px;
+}

@@ -1,0 +1,30 @@
+.propertyList {
+   
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.propertyContainer {
+  cursor: pointer;
+  overflow: hidden;
+ 
+}
+
+.propertyImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.propertyName {
+    margin: 0px 0px 2px;
+    font-size: 18px
+}
+
+.propertyCount {
+    margin: 0px 0px 2px;
+    font-size: 14px;
+    font-weight: 100;
+}
