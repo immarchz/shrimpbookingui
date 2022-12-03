@@ -1,11 +1,13 @@
 import React from "react";
-import Button from '@mui/material/Button';
+import Navbar from "./../../components/Navbar/Navbar";
+import Header from "../../components/header/Header";
 
 const List = () => {
-    return (
-        <div className=""> 
-            <Button variant="outlined">List your place</Button> 
-        </div>
-    )
-} 
+  return (
+    <div className="">
+      <Navbar />
+      <Header type="list" />
+    </div>
+  );
+};
 export default List;

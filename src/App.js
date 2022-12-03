@@ -1,4 +1,4 @@
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from "./Pages/homepage/home";
 import List from "./Pages/list/List";
@@ -15,11 +15,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/login" element={<SignIn/>} />
-          <Route path="/hotel" element={<List/>} />
-          <Route path="/singlehotel/:id" element={<Hotel/>} />
-          
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<SignIn />} />
+        <Route path="/list" element={<List />} />
+        <Route path="/singlehotel/:id" element={<Hotel />} />
+
       </Routes>
     </BrowserRouter>
   );
